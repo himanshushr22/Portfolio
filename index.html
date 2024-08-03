@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himanshu Sharma</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <!-- Nav -->
+    <nav id="navbar">
+        <div class="logo"><a href="#profile">Himanshu Sharma</a></div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a> </li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+     <nav id="phn-nav">
+        <div class="logo"><a href="#home">Himanshu Sharma</a></div>
+        <div class="phn-menu">
+            <div class="phn-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a> </li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+     </nav>
+<!-- Nav Completed -->
+
+
+
+<!-- Profile Section -->
+
+     <section id="profile">
+        <div class="sectionPics">
+           <img class="pImage" src="./images/myImage.jpg" alt=""> 
+        </div>
+        <div class="section-text">
+            <p class="section-text-1">Hello I'm</p>
+            <h1 class="section-title">Himanshu Sharma</h1>
+            <p class="section-text-2">Fronted Developer / Creator</p>
+            <div class="btn-container">
+                <button class="resume-btn btn" onclick="window.open('./images/HimanshuKumarSharma__Resume (1).pdf')">Download CV</button>
+                <button class="contact-btn btn" onclick="location.href =' ./#contact' ">Contact Me</button>
+            </div>
+            <div class="social-icons">
+                <i class="fa-brands fa-linkedin" id="linkdin" onclick="location.href='https://www.linkedin.com/in/himanshu-sharma-8587a22ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'"></i>
+                <i class="fa-brands fa-github" id="github" onclick="location.href='https://github.com/himanshushr22'"></i>
+                <i class="fa-brands fa-instagram" id="instagram" onclick="location.href='https://www.instagram.com/himanshuxfilms_?igsh=aGhsNDc3NXh1dnZq'"></i>
+            </div>
+        </div>
+     </section> 
+
+     <!-- Profile Section End -->
+
+
+
+      <!-- About Section -->
+
+
+
+      <section id="about">
+        <i class="fa-solid fa-arrow-up icon-arroww" onclick="location.href='./#navbar'"></i>
+        <p class="section-text-1 about-text-2">Get To Know More</p>
+        <h1 class="section-title">About Me</h1>
+        <div class="section-container">
+            <div class="section-pic-container">
+                <img src="./images/AboutPic.JPG" alt="Profile Picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-container">
+                    <div class="details-container">
+                        <i class="fa-solid fa-circle-info icon"></i>
+                        <h3>Experience</h3>
+                        <p>1+ Years, Self Experience <br>Fronted Development</p>
+                    </div>
+                    <div class="details-container">
+                        <i class="fa-solid fa-circle-info icon"></i>
+                        <h3>Experience</h3>
+                        <p>1.5+ Years, Content Creation <br>Instagram Influncer</p>
+                    </div>
+                    <div class="details-container">
+                        <i class="fa-solid fa-school icon"></i>
+                        <h3>Education</h3>
+                        <p>BCA, Bachelor in Computer Application <br>Graduated</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        I am a BCA graduate with one year of self-taught experience in frontend development. My skills include creating responsive and user-friendly web interfaces. Additionally, I have 1.5 years of experience in content creation, specializing in videography and photography for Instagram.
+
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <i class="fa-solid fa-arrow-down icon-arrow" onclick="location.href='./#experience'"></i>
+      </section>
+
+
+      <!-- About Section end -->
+
+
+
+      <!-- Experience Section  -->
+
+
+      <section id="experience">
+        <i class="fa-solid fa-arrow-up icon-arroww" onclick="location.href='./#about'"></i>
+        <p class="section-text-1 about-text-2">Explore My</p>
+        <h1 class="section-title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-container">
+                <div class="details-container exp">
+                    <h2 class="experience-sub-title">Fronted Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./images/badge.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./images/badge.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./images/badge.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Tailwind CSS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./images/badge.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./images/badge.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>TypeScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./images/badge.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>React.Js</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="details-container exp">
+                    <h2 class="experience-sub-title">Backend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./images/badge.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Node.Js</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./images/badge.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Express.js</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./images/badge.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Git</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./images/badge.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>MongoDB</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="details-container exp">
+                    <h2 class="experience-sub-title">Creator</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./images/badge.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Content creation</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./images/badge.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Social Media</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./images/badge.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Editing</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./images/badge.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Collaboration</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./images/badge.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Photography</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./images/badge.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Videography</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <i class="fa-solid fa-arrow-down icon-arrow" onclick="location.href='./#project'"></i>
+      </section>
+
+      <!--EXPERIENCE SECTION END  -->
+      
+
+
+
+      <!-- PROJECT SECTION START -->
+
+      <section id="project">
+        <i class="fa-solid fa-arrow-up icon-arroww" onclick="location.href='./#experience'"></i>
+        <p class="section-text-1 about-text-2">Browse My Recent</p>
+        <h1 class="section-title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-container">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./images/typing.webp" alt="Project 1" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title" >Typing Master</h2>
+                <div class="btn-container">
+                    <button class="btn resume-btn btn-color-2 project-btn" onclick="location.href='https://github.com/himanshushr22/Typing-Master'">Github</button>
+                    <button class="btn resume-btn btn-color-2 project-btn" onclick="location.href='https://himanshushr22.github.io/Typing-Master/'">Live Demo</button>
+                </div>
+            </div>
+
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./images/ludo.webp" alt="Project 2" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title" >Ludo</h2>
+                <div class="btn-container">
+                    <button class="btn resume-btn btn-color-2 project-btn" onclick="location.href='https://github.com/himanshushr22/Ludo'">Github</button>
+                    <button class="btn resume-btn btn-color-2 project-btn" onclick="location.href='https://himanshushr22.github.io/Ludo/'">Live Demo</button>
+                </div>
+            </div>
+
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./images/TicTacToe.jpg" alt="Project 3" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title" >Tic Tac Toe</h2>
+                <div class="btn-container">
+                    <button class="btn resume-btn btn-color-2 project-btn" onclick="location.href='https://github.com/himanshushr22/Tic-Tac-Toe-Game'">Github</button>
+                    <button class="btn resume-btn btn-color-2 project-btn" onclick="location.href='https://himanshushr22.github.io/Tic-Tac-Toe-Game/'">Live Demo</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="more-project">
+            <p>For More Projects Check Out My Github --> <span> <i class="fa-brands fa-github" id="github" onclick="location.href='https://github.com/himanshushr22'"></i></span></p>
+           
+        </div>
+        </div>
+        <i class="fa-solid fa-arrow-down icon-arrow" onclick="location.href='./#contact'"></i>
+      </section>
+
+
+      <!-- Project section end -->
+
+
+      <!-- Contact Section -->
+
+
+      <section id="contact">
+        <i class="fa-solid fa-arrow-up icon-arroww" onclick="location.href='./#project'"></i>
+        <p class="section-text-1 about-text-2">Get In Touch</p>
+        <h1 class="section-title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <i class="fa-regular fa-envelope icon contact-icon"></i>
+                <p><a href="mailto:himanshushr03@gmail.com">Himanshushr03@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <i class="fa-brands fa-linkedin icon contact-icon"></i>
+                <p><a href="https://www.linkedin.com/in/himanshu-sharma-8587a22ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Linkedin</a></p>
+            </div>
+        </div>
+      </section>
+
+      <!-- contact End -->
+
+      <footer>
+<nav>
+    <div class="nav-links-container">
+        <ul class="nav-links">
+            <li><a href="#about">About</a> </li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<p>Copyright &#169; 2024 Himanshu Sharma, All Right Reserved.</p>
+      </footer>
+
+</body>
+</html>
