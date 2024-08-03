@@ -45,6 +45,11 @@
     height: 40vh;
 }
 
+.section-pic-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #profile{
     height: 65vh;
     margin-bottom: 0;
